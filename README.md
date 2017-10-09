@@ -13,12 +13,7 @@ java:
 2.Open it and click "The 30 Seconds Braves Ver_final".
 3.Compile Main.java
 4.Structure tree
-                    [Main]
-                       |
-             [playgame]-[Window]
-                       |
-              /        |         \                   \
-[KeyboardListener] [Tuple] [ThreadsController] [Data of square]
-                                                      |
-                                                      [SquarePanel]
+[Main]->[playgame]-[Window]->[KeyboardListener] [Tuple] [ThreadsController] [Data of square]->[SquarePanel]
+
+                                                    
 
